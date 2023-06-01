@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" class="navigator-link">
+              <span class="suite-name border-passed">TutorialsNinja Automation suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TutorialsNinja_Automation_suite" class="navigator-link ">
+                    <span>C:\Users\Nishchal\Documents\Agama_PNT\Hybrid_frameWork\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TutorialsNinja_Automation_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TutorialsNinja_Automation_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TutorialsNinja_Automation_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TutorialsNinja_Automation_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TutorialsNinja_Automation_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TutorialsNinja_Automation_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" class="hide-methods passed suite-TutorialsNinja_Automation_suite"> (hide)</a> <!-- hide-methods passed suite-TutorialsNinja_Automation_suite -->
+                      <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" class="show-methods passed suite-TutorialsNinja_Automation_suite"> (show)</a> <!-- show-methods passed suite-TutorialsNinja_Automation_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-TutorialsNinja_Automation_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.SearchProductTest" class="method navigator-link" hash-for-method="SearchWithINValidProduct">SearchWithINValidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.SearchProductTest" class="method navigator-link" hash-for-method="SearchWithNoProduct">SearchWithNoProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.SearchProductTest" class="method navigator-link" hash-for-method="SearchWithValidProduct">SearchWithValidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithINValidEmailAndinvalidPassword">VerifyLoginWithINValidEmailAndinvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithINValidUsernameAndValidPassword">VerifyLoginWithINValidUsernameAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda9@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda9@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda10@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda10@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda8@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda8@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123)">VerifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="VerifyNoUserNameandPassword1">VerifyNoUserNameandPassword1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.RegistrationTest" class="method navigator-link" hash-for-method="registerAccountWithAllField">registerAccountWithAllField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.RegistrationTest" class="method navigator-link" hash-for-method="registerAccountWithMandatoryField">registerAccountWithMandatoryField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.RegistrationTest" class="method navigator-link" hash-for-method="registerAccountWithNofeilds">registerAccountWithNofeilds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.RegistrationTest" class="method navigator-link" hash-for-method="registerAccountWithoutaggreingPrivacyPolicy">registerAccountWithoutaggreingPrivacyPolicy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TutorialsNinja_Automation_suite" title="com.tutorials.qa.testcases.RegistrationTest" class="method navigator-link" hash-for-method="registerWithExistingEmail">registerWithExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TutorialsNinja_Automation_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TutorialsNinja_Automation_suite" class="panel TutorialsNinja_Automation_suite">
+          <div class="suite-TutorialsNinja_Automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tutorials.qa.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithINValidEmailAndinvalidPassword">
+                  </a> <!-- VerifyLoginWithINValidEmailAndinvalidPassword -->
+                  <span class="method-name">VerifyLoginWithINValidEmailAndinvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithINValidUsernameAndValidPassword">
+                  </a> <!-- VerifyLoginWithINValidUsernameAndValidPassword -->
+                  <span class="method-name">VerifyLoginWithINValidUsernameAndValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda1@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda5@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda6@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda3@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda9@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda9@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda9@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda2@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda7@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda10@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda10@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda10@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda8@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda8@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda8@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123)">
+                  </a> <!-- VerifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123) -->
+                  <span class="method-name">VerifyLoginWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda4@gmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyNoUserNameandPassword1">
+                  </a> <!-- VerifyNoUserNameandPassword1 -->
+                  <span class="method-name">VerifyNoUserNameandPassword1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinja_Automation_suite-class-passed -->
+          <div class="suite-TutorialsNinja_Automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tutorials.qa.testcases.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAccountWithAllField">
+                  </a> <!-- registerAccountWithAllField -->
+                  <span class="method-name">registerAccountWithAllField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAccountWithMandatoryField">
+                  </a> <!-- registerAccountWithMandatoryField -->
+                  <span class="method-name">registerAccountWithMandatoryField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAccountWithNofeilds">
+                  </a> <!-- registerAccountWithNofeilds -->
+                  <span class="method-name">registerAccountWithNofeilds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerAccountWithoutaggreingPrivacyPolicy">
+                  </a> <!-- registerAccountWithoutaggreingPrivacyPolicy -->
+                  <span class="method-name">registerAccountWithoutaggreingPrivacyPolicy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerWithExistingEmail">
+                  </a> <!-- registerWithExistingEmail -->
+                  <span class="method-name">registerWithExistingEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinja_Automation_suite-class-passed -->
+          <div class="suite-TutorialsNinja_Automation_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tutorials.qa.testcases.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchWithINValidProduct">
+                  </a> <!-- SearchWithINValidProduct -->
+                  <span class="method-name">SearchWithINValidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchWithNoProduct">
+                  </a> <!-- SearchWithNoProduct -->
+                  <span class="method-name">SearchWithNoProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchWithValidProduct">
+                  </a> <!-- SearchWithValidProduct -->
+                  <span class="method-name">SearchWithValidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinja_Automation_suite-class-passed -->
+        </div> <!-- panel TutorialsNinja_Automation_suite -->
+        <div panel-name="test-xml-TutorialsNinja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nishchal\Documents\Agama_PNT\Hybrid_frameWork\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TutorialsNinja Automation suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TutorialNinja Automation TestCases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tutorials.qa.testcases.RegistrationTest&quot;/&gt;
+      &lt;class name=&quot;com.tutorials.qa.testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.tutorials.qa.testcases.SearchProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TutorialNinja Automation TestCases --&gt;
+&lt;/suite&gt; &lt;!-- TutorialsNinja Automation suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TutorialsNinja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TutorialsNinja Automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TutorialNinja Automation TestCases (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TutorialsNinja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TutorialsNinja Automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TutorialsNinja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TutorialsNinja Automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TutorialsNinja_Automation_suite');
+function tableData_TutorialsNinja_Automation_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registerAccountWithMandatoryField')
+data.setCell(0, 2, 'com.tutorials.qa.testcases.RegistrationTest')
+data.setCell(0, 3, 1063);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(1, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(1, 3, 932);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registerAccountWithAllField')
+data.setCell(2, 2, 'com.tutorials.qa.testcases.RegistrationTest')
+data.setCell(2, 3, 928);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(3, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(3, 3, 783);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(4, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(4, 3, 757);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(5, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(5, 3, 713);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(6, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(6, 3, 712);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(7, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(7, 3, 705);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(8, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(8, 3, 705);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(9, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(9, 3, 703);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(10, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(10, 3, 699);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(11, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(11, 3, 697);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyLoginWithValidCredentials')
+data.setCell(12, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(12, 3, 690);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'registerAccountWithoutaggreingPrivacyPolicy')
+data.setCell(13, 2, 'com.tutorials.qa.testcases.RegistrationTest')
+data.setCell(13, 3, 643);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'registerWithExistingEmail')
+data.setCell(14, 2, 'com.tutorials.qa.testcases.RegistrationTest')
+data.setCell(14, 3, 631);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'SearchWithValidProduct')
+data.setCell(15, 2, 'com.tutorials.qa.testcases.SearchProductTest')
+data.setCell(15, 3, 601);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyLoginWithINValidEmailAndinvalidPassword')
+data.setCell(16, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(16, 3, 470);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyLoginWithINValidUsernameAndValidPassword')
+data.setCell(17, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(17, 3, 466);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'registerAccountWithNofeilds')
+data.setCell(18, 2, 'com.tutorials.qa.testcases.RegistrationTest')
+data.setCell(18, 3, 449);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'SearchWithINValidProduct')
+data.setCell(19, 2, 'com.tutorials.qa.testcases.SearchProductTest')
+data.setCell(19, 3, 441);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifyNoUserNameandPassword1')
+data.setCell(20, 2, 'com.tutorials.qa.testcases.LoginTest')
+data.setCell(20, 3, 371);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'SearchWithNoProduct')
+data.setCell(21, 2, 'com.tutorials.qa.testcases.SearchProductTest')
+data.setCell(21, 3, 369);
+window.suiteTableData['TutorialsNinja_Automation_suite']= { tableData: data, tableDiv: 'times-div-TutorialsNinja_Automation_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-TutorialsNinja_Automation_suite">
+              </div> <!-- times-div-TutorialsNinja_Automation_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TutorialsNinja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TutorialsNinja Automation suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TutorialsNinja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TutorialsNinja_Automation_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tutorials.qa.testcases.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerAccountWithMandatoryField</span>
+                <span class="method-start">8338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">9402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerWithExistingEmail</span>
+                <span class="method-start">14126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">14758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14814 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerAccountWithAllField</span>
+                <span class="method-start">19337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">20266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerAccountWithoutaggreingPrivacyPolicy</span>
+                <span class="method-start">24955 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">25599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">25664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerAccountWithNofeilds</span>
+                <span class="method-start">30395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">30844 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tutorials.qa.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda@gmail.com, Selenium@123)</span>
+                <span class="method-start">35441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">36140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda1@gmail.com, Selenium@123)</span>
+                <span class="method-start">40401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda2@gmail.com, Selenium@123)</span>
+                <span class="method-start">45660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">46418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda3@gmail.com, Selenium@123)</span>
+                <span class="method-start">50719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda4@gmail.com, Selenium@123)</span>
+                <span class="method-start">55509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">56222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda5@gmail.com, Selenium@123)</span>
+                <span class="method-start">60429 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">61132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda6@gmail.com, Selenium@123)</span>
+                <span class="method-start">65390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">66081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda7@gmail.com, Selenium@123)</span>
+                <span class="method-start">70342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda8@gmail.com, Selenium@123)</span>
+                <span class="method-start">75440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">76146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda9@gmail.com, Selenium@123)</span>
+                <span class="method-start">80315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">81014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidCredentials(seleniumpanda10@gmail.com, Selenium@123)</span>
+                <span class="method-start">85219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">85924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithINValidEmailAndinvalidPassword</span>
+                <span class="method-start">90291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">90762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithINValidUsernameAndValidPassword</span>
+                <span class="method-start">95061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">95528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyNoUserNameandPassword1</span>
+                <span class="method-start">99707 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tutorials.qa.testcases.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">100079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchWithValidProduct</span>
+                <span class="method-start">103340 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">103942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchWithINValidProduct</span>
+                <span class="method-start">107346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">107788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchWithNoProduct</span>
+                <span class="method-start">111126 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
